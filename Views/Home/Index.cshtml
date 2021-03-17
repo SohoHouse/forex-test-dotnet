@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">SohoHouse Forex Calculator</h1>
+    
+    <form method="POST">
+        <select title="Currency" name="currency">
+            <option>EUR</option>
+        </select>
+        <input type="number" name="amount" />
+        <input type="submit" name="submit" value="Calculate" />
+    </form>
+
+    <a href="/currency/add">Add a new currency</a>
+</div>
